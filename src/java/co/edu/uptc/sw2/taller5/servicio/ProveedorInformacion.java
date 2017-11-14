@@ -14,7 +14,7 @@ public class ProveedorInformacion<T> {
     private static ProveedorInformacion proveedorInformacion=new ProveedorInformacion();
     
     private ProveedorInformacion(){
-        
+        //constructor privado
     }
     
     public static ProveedorInformacion instance(){

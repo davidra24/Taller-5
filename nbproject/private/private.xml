@@ -14,6 +14,9 @@
             <file>file:/D:/Documents/NetBeansProjects/Taller5/src/java/co/edu/uptc/sw2/taller5/servicio/CarreraServicio.java</file>
             <file>file:/D:/Documents/NetBeansProjects/Taller5/src/java/org/netbeans/rest/application/config/ApplicationConfig.java</file>
         </group>
-        <group/>
+        <group>
+            <file>file:/C:/Users/davic/Documents/GitHub/Taller-5/src/java/co/edu/uptc/sw2/taller5/dto/EstudianteDTO.java</file>
+            <file>file:/C:/Users/davic/Documents/GitHub/Taller-5/src/java/co/edu/uptc/sw2/taller5/servicio/CarreraServicio.java</file>
+        </group>
     </open-files>
 </project-private>

@@ -9,10 +9,10 @@ import javax.ws.rs.core.*;
  * @author daperador
  * @generated
  */
-@Path("/Estudiante")
+@Path("/Materia")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
-public class EstudianteServicio {
+public class MateriaServicio {
 
     /**
      * retorna una lista con los Municipio que se encuentran en la base de datos
@@ -21,8 +21,8 @@ public class EstudianteServicio {
      * @generated
      */
     @GET
-    public List<EstudianteDTO> obtenerTodosEstudiantes() {
-        return ProveedorInformacion.instance().obtenerTodos(EstudianteDTO.class);
+    public List<MateriaDTO> obtenerTodosMaterias() {
+        return ProveedorInformacion.instance().obtenerTodos(MateriaDTO.class);
     }
 
     /**
@@ -32,8 +32,8 @@ public class EstudianteServicio {
      */
     @GET
     @Path("/{id}")
-    public EstudianteDTO obtenerEstudiante(@PathParam("id") Long id) {
-        return (EstudianteDTO) ProveedorInformacion.instance().obtener(EstudianteDTO.class, id);
+    public MateriaDTO obtenerMateria(@PathParam("id") Long id) {
+        return (MateriaDTO) ProveedorInformacion.instance().obtener(MateriaDTO.class, id);
     }
 
     /**
@@ -44,8 +44,8 @@ public class EstudianteServicio {
      * @generated
      */
     @POST
-    public EstudianteDTO guardarEstudiante(EstudianteDTO dto) {
-        return (EstudianteDTO) ProveedorInformacion.instance().guardar(dto);
+    public MateriaDTO guardarMateria(MateriaDTO dto) {
+        return (MateriaDTO) ProveedorInformacion.instance().guardar(dto);
     }
 
     /**
@@ -56,8 +56,8 @@ public class EstudianteServicio {
      */
     @DELETE
     @Path("/{id}")
-    public void borrarEstudiante(@PathParam("id") Long id) {
-        ProveedorInformacion.instance().eliminar(EstudianteDTO.class, id);
+    public void borrarMateria(@PathParam("id") Long id) {
+        ProveedorInformacion.instance().eliminar(MateriaDTO.class, id);
     }
 
 }

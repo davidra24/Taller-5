@@ -6,7 +6,7 @@ import javax.ws.rs.*;
 import javax.ws.rs.core.*;
 
 /**
- * @author daperador
+ * @author david
  * @generated
  */
 @Path("/Carrera")
